@@ -1,0 +1,10 @@
+ function solucao(pesos) {
+  if (pesos <= 5) {
+  } else {
+    return "NAO PODEM LUTAR";
+  }
+}
+
+var pesos = [50, 53];
+var resultado = solucao(pesos);
+console.log(resultado);
